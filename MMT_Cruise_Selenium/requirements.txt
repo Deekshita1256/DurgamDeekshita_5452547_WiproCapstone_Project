@@ -1,0 +1,7 @@
+selenium
+seleniumbase
+webdriver-manager
+pytest
+pytest-order
+openpyxl
+allure-pytest

@@ -1,0 +1,8 @@
+2026-05-22 15:20:19 - [INFO] - ========== STARTING TEST ==========
+2026-05-22 15:20:19 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-22 15:20:26 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-22 15:20:44 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-22 15:23:27 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-22 15:23:27 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_search_and_passenger_details_e2e[28-32]_PASS_20260522_152327.png
+2026-05-22 15:23:28 - [INFO] - ========== CLOSING TEST ==========
+2026-05-22 15:23:30 - [INFO] - BROWSER CLOSED SUCCESSFULLY

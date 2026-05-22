@@ -1,0 +1,29 @@
+[INFO] Successfully moved selenium focus window. New Tab URL: https://mmt.odysol.com/swift/cruise?siid=258080&destinationtype=destination&destinations=19&startdate=07%2F01%2F2026&enddate=07%2F31%2F2026&referrer=b766b3f1c939b595add5e8d401d83a22&referrer2=29368c06-4ffa-40fd-baa3-68f185d18642
+[WARNING] Could not parse individual cruise card title structures text details. Error: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff72bf37de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff72bf37e50+14900]
+	uc_driver!(No symbol) [0x7ff72bc9d5ad]
+	uc_driver!(No symbol) [0x7ff72bcf7822]
+	uc_driver!(No symbol) [0x7ff72bcf7b2c]
+	uc_driver!(No symbol) [0x7ff72bd47d17]
+	uc_driver!(No symbol) [0x7ff72bd4486f]
+	uc_driver!(No symbol) [0x7ff72bce9df8]
+	uc_driver!(No symbol) [0x7ff72bceace3]
+	uc_driver!GetHandleVerifier [0x7ff72c24cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff72c247375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff72c26bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff72bf56045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff72bf5ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff72bf41bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff72bf41d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff72bf260e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5298e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa53e4427c+2c]
+
+[INFO] Fallback print - Page Title is currently:  MakeMyTrip: Cruise Planner
+[INFO] Attempting native interaction chain click on redirect button.
+[INFO] Handoff initiated. Waiting for page state transition...
+[INFO] Baseline Review Stage Price Extracted: '₹1,05,552'
+[INFO] Handoff Payment Gateway Price Extracted: '₹ 1,05,552'
+[SUCCESS] Financial matching auditing passed completely.

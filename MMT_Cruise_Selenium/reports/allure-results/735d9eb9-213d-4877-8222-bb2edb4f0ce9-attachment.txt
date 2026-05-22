@@ -1,0 +1,6 @@
+[32mINFO    [0m root:conftest.py:18 ========== STARTING TEST ==========
+[32mINFO    [0m root:conftest.py:26 LAUNCHING BROWSER: CHROME (Headless=False)
+[32mINFO    [0m root:conftest.py:37 OPENING WEBSITE: https://www.makemytrip.com/
+[32mINFO    [0m root:conftest.py:43 CURRENT URL: https://www.makemytrip.com/
+[32mINFO    [0m root:conftest.py:47 ========== CLOSING TEST ==========
+[32mINFO    [0m root:conftest.py:50 BROWSER CLOSED SUCCESSFULLY

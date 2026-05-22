@@ -1,0 +1,35 @@
+[INFO] Successfully moved selenium focus window. New Tab URL: https://mmt.odysol.com/swift/cruise?siid=258080&destinationtype=destination&destinations=19&startdate=07%2F01%2F2026&enddate=07%2F31%2F2026&referrer=c540b29485d1e434c350d6b6a6006914&referrer2=d3395258-64f1-4f7a-8731-27322237fd9e
+[WARNING] Could not parse individual cruise card title structures text details. Error: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff778717de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff778717e50+14900]
+	uc_driver!(No symbol) [0x7ff77847d5ad]
+	uc_driver!(No symbol) [0x7ff7784d7822]
+	uc_driver!(No symbol) [0x7ff7784d7b2c]
+	uc_driver!(No symbol) [0x7ff778527d17]
+	uc_driver!(No symbol) [0x7ff77852486f]
+	uc_driver!(No symbol) [0x7ff7784c9df8]
+	uc_driver!(No symbol) [0x7ff7784cace3]
+	uc_driver!GetHandleVerifier [0x7ff778a2cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff778a27375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff778a4bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff778736045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff77873ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff778721bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff778721d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7787060e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5298e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa53e4427c+2c]
+
+[INFO] Fallback print - Page Title is currently:  MakeMyTrip: Cruise Planner
+[INFO] Scraping the top visible cruise listing title...
+[INFO] Initial Top Cruise Title: '3 Nights | Asia and Asia Pacific | Royal Caribbean | Spectrum of the Seas'
+[INFO] Opening Sort By dropdown wrapper...
+[INFO] Clicking the 'Departure Date' option...
+[INFO] Selection completed. Waiting for results grid refresh...
+[INFO] Scraping the top visible cruise listing title...
+[INFO] Initial Top Cruise Title: '4 Nights | Asia and Asia Pacific | Disney Cruise Line | Disney Adventure'
+[DEBUG] Comparing titles -
+ Old: '3 Nights | Asia and Asia Pacific | Royal Caribbean | Spectrum of the Seas'
+ New: '4 Nights | Asia and Asia Pacific | Disney Cruise Line | Disney Adventure'
+[SUCCESS] Test passed. Sorting modified the page grid layout successfully.
