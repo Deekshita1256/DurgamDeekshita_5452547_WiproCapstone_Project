@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","186576","test_cruise_booking_lowercase_pan_positive[28-32]","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""
+"","153963","test_cruise_booking_invalid_pan_negative[28-32]","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""
+"","118540","test_cruise_booking_missing_field_negative[28-32]","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""
+"","175506","test_cruise_booking_financial_price_sync_positive[28-32]","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""
+"Validates layout container scaling right at the primary results search matrix.","49743","test_cruise_booking_responsive_rescale_positive","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""
+"E2E Parameterized Execution for Asia and Asia Pacific during July. Guest Ages: 28, 32","163107","test_cruise_search_and_passenger_details_e2e[28-32]","tests","2026-05-22","passed","2026-05-22","","test_cruise_e2e","",""
+"Validates that sorting by Departure Date updates the position order of the search listings.","51981","test_cruise_booking_sort_by_departure_date_positive","tests","2026-05-22","passed","2026-05-22","TestCruiseValidation","test_cruise_validation","",""

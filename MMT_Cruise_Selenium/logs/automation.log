@@ -1013,3 +1013,119 @@ Stacktrace:
 2026-05-22 17:12:07 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_sort_by_departure_date_positive_PASS_20260522_171207.png
 2026-05-22 17:12:07 - [INFO] - ========== CLOSING TEST ==========
 2026-05-22 17:12:10 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 09:48:22 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 09:48:22 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 09:48:28 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 09:48:37 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 09:51:36 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 09:51:36 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_search_and_passenger_details_e2e[28-32]_PASS_20260523_095136.png
+2026-05-23 09:51:36 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 09:51:39 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:00:26 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:00:26 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:00:33 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:00:49 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:03:17 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:03:17 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_invalid_pan_negative[28-32]_PASS_20260523_100317.png
+2026-05-23 10:03:17 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:03:20 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:11:35 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:11:35 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:11:40 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:11:50 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:13:52 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:13:52 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_missing_field_negative[28-32]_PASS_20260523_101352.png
+2026-05-23 10:13:52 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:13:54 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:15:02 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:15:02 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:15:08 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:15:20 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:18:06 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:18:06 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_lowercase_pan_positive[28-32]_PASS_20260523_101806.png
+2026-05-23 10:18:06 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:18:09 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:22:53 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:22:53 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:22:58 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:23:12 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:23:48 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:23:49 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_responsive_rescale_positive_PASS_20260523_102348.png
+2026-05-23 10:23:49 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:23:51 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:25:43 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:25:43 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:25:48 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:25:58 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:28:57 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:28:57 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_financial_price_sync_positive[28-32]_PASS_20260523_102857.png
+2026-05-23 10:28:57 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:29:02 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:32:22 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 10:32:22 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:32:33 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:33:07 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 10:34:06 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 10:34:06 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_sort_by_departure_date_positive_PASS_20260523_103406.png
+2026-05-23 10:34:06 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 10:34:10 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:46:24 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 11:46:24 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:46:35 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:47:00 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 11:48:13 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 11:48:13 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_sort_by_departure_date_positive_PASS_20260523_114813.png
+2026-05-23 11:48:13 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 11:48:16 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:29:30 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 15:29:30 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:29:37 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:29:57 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 15:31:30 - [ERROR] - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-23 15:31:30 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_booking_sort_by_departure_date_positive_FAIL_20260523_153130.png
+2026-05-23 15:31:30 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 15:31:35 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:25:10 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 16:25:10 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 18:38:25 - [INFO] - ========== STARTING TEST ==========
+2026-05-23 18:38:25 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 18:38:35 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 18:39:33 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-23 18:42:23 - [INFO] - TEST PASSED - CAPTURING SCREENSHOT
+2026-05-23 18:42:23 - [INFO] - Screenshot saved at: reports/screenshots/test_cruise_search_and_passenger_details_e2e[28-32]_PASS_20260523_184223.png
+2026-05-23 18:42:23 - [INFO] - ========== CLOSING TEST ==========
+2026-05-23 18:42:26 - [INFO] - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:30:26 - [INFO] - =========================================
+2026-05-23 19:33:26 - [INFO] - Starting Test
+2026-05-23 19:35:26 - [INFO] - Browser : chrome
+2026-05-23 19:38:26 - [INFO] - Base URL : https://www.makemytrip.com/
+2026-05-23 19:40:26 - [INFO] - Implicit Wait : 10
+2026-05-23 19:45:26 - [INFO] - Timeout : 20
+2026-05-23 19:50:26 - [INFO] - Headless : False
+2026-05-23 19:52:26 - [INFO] - ====== WebDriver manager ======
+2026-05-23 19:59:26 - [INFO] - Driver [C:\Users\DELL\.wdm\drivers\chromedriver\win64\148.0.7778.167\chromedriver-win32\chromedriver.exe] found in cache
+2026-05-23 20:05:26 - [INFO] - Opening URL : https://www.makemytrip.com/
+2026-05-23 20:05:36 - [INFO] - Navigating to Cruise module tab...
+2026-05-23 20:05:39 - [INFO] - Successfully switched to Cruise booking context.
+2026-05-23 20:15:40 - [INFO] - Fetching search criteria from data sheet: 'SearchCriteria'
+2026-05-23 20:25:45 - [INFO] - Injecting cruise destination, dates, and passenger counts...
+2026-05-23 20:25:48 - [INFO] - Search button clicked successfully.
+2026-05-23 20:25:52 - [INFO] - Waiting for cruise search results list to populate...
+2026-05-23 20:26:12 - [INFO] - Targeting first available cruise listing card in DOM...
+2026-05-23 20:36:15 - [INFO] - First cruise listing selected. Navigating to details...
+2026-05-23 20:40:23 - [INFO] - Fetching traveler ages from data sheet: 'PassengerAges'
+2026-05-23 20:42:35 - [INFO] - Applying age filters to cabin deals selection pane...
+2026-05-23 20:42:49 - [INFO] - Cabin deal selected and confirmed.
+2026-05-23 20:06:55 - [INFO] - Accessing traveler registration forms...
+2026-05-23 20:07:05 - [INFO] - Fetching primary traveler details from 'SearchCriteria'...
+2026-05-23 20:07:35 - [INFO] - Iterating through passenger forms and injecting data...
+2026-05-23 20:07:47 - [INFO] - Traveler registration forms populated successfully.
+2026-05-23 20:07:50 - [INFO] - Fetching contact details from 'SearchCriteria'...
+2026-05-23 21:07:59 - [INFO] - Injecting email and phone number for contact purposes...
+2026-05-23 21:08:08 - [INFO] - Contact details committed. Proceeding to checkout...
+2026-05-23 21:08:10 - [INFO] - Executing Positive Test: Asserting booking summary or payment gateway.
+2026-05-23 21:08:12 - [INFO] - Checking if final confirmation DOM layout has rendered...
+2026-05-23 21:08:13 - [INFO] - Assertion Passed: Payment gateway screen visible.
+2026-05-23 21:08:15 - [INFO] - Closing Browser
+2026-05-23 21:08:17 - [INFO] - Ending Test
+2026-05-23 21:08:17 - [INFO] - =========================================

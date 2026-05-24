@@ -258,7 +258,7 @@ class TestCruiseValidation:
 
         payment_page = PaymentPage(driver)
         with allure.step("Entering PAN Card authentication number and completing booking hold request"):
-            payment_page.fill_pan_and_complete_booking("ffvpd6592h")  # Intentionally lowercase to test case insensitivity
+            payment_page.fill_pan_and_complete_booking("frdkj3456j")
             allure.attach(driver.get_screenshot_as_png(), name="Final Booking Step Execution Status", attachment_type=allure.attachment_type.PNG)
 
             # Final Verification Milestone Assertion
@@ -436,7 +436,7 @@ class TestCruiseValidation:
 
             # 🛑 VERIFICATION AUDIT ASSERTION
             assert cleaned_review == cleaned_gateway, (
-                f"❌ FINANCIAL AUDIT FAIL: Price discrepancy found during handoff! "
+                f"❌ FINANCIAL AUDIT FAIL: Price discrepancy found during handoff! Coupon is not applied."
                 f"Review summary total showed '{cleaned_review}', but the payment engine requested '{cleaned_gateway}'!"
             )
             print("[SUCCESS] Financial matching auditing passed completely.")

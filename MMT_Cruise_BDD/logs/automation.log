@@ -1,0 +1,877 @@
+2026-05-23 01:23:49 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 01:23:49 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 01:23:49 [INFO] (environment.py:70) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 01:29:24 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 01:29:24 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 01:29:24 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:29:33 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:29:58 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 01:29:58 [ERROR] (environment.py:48) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:30:00 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:30:00 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 01:30:00 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:30:04 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:30:29 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 01:30:29 [ERROR] (environment.py:48) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:30:31 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:30:31 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 01:30:31 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:30:35 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:30:59 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 01:30:59 [ERROR] (environment.py:48) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:31:01 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:31:01 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 01:31:01 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:31:05 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:31:28 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 01:31:28 [ERROR] (environment.py:48) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:31:30 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:31:30 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 01:31:30 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:31:34 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:31:56 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 01:31:56 [ERROR] (environment.py:48) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:31:59 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:31:59 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 01:31:59 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:32:03 [INFO] (environment.py:38) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:32:25 [INFO] (environment.py:43) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 01:32:25 [ERROR] (environment.py:48) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:32:28 [INFO] (environment.py:63) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:32:28 [INFO] (environment.py:70) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 01:52:26 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 01:52:26 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 01:52:26 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:52:31 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:52:39 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 01:52:39 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:52:45 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:52:45 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 01:52:45 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:52:49 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:52:57 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 01:52:57 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:53:00 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:53:00 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 01:53:00 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:53:04 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:53:12 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 01:53:12 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:53:17 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:53:17 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 01:53:17 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:53:21 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:53:29 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 01:53:29 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:53:32 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:53:32 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 01:53:32 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:53:36 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:53:44 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 01:53:44 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:53:51 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:53:51 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 01:53:51 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 01:53:55 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 01:54:03 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 01:54:03 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 01:54:15 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 01:54:15 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:04:50 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:04:50 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 02:04:50 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:04:55 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:05:11 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 02:05:11 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:05:14 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:05:14 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 02:05:14 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:05:19 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:05:30 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 02:05:30 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:05:33 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:05:33 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 02:05:33 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:05:38 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:05:47 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 02:05:47 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:05:50 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:05:50 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 02:05:50 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:05:54 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:06:03 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 02:06:03 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:06:06 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:06:06 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 02:06:06 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:06:10 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:06:21 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 02:06:21 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:06:24 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:06:24 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 02:06:24 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:06:28 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:06:38 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 02:06:38 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:06:41 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:06:41 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:13:13 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:13:13 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 02:13:13 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:13:21 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:13:35 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 02:13:35 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:13:38 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:13:38 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 02:13:38 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:13:43 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:13:55 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 02:13:55 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:13:58 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:13:58 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 02:13:58 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:14:02 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:14:15 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 02:14:15 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:14:18 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:14:18 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 02:14:18 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:14:22 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:14:33 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 02:14:33 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:14:35 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:14:35 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 02:14:35 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:14:40 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:14:51 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 02:14:51 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:14:54 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:14:54 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 02:14:54 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:14:58 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:15:08 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 02:15:08 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:15:11 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:15:11 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:17:07 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:17:07 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 02:17:07 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:17:11 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:17:38 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 02:17:38 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:17:40 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:17:40 [INFO] (environment.py:22) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 02:17:40 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:17:45 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:18:10 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 02:18:10 [ERROR] (environment.py:61) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:18:13 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:18:13 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 02:18:13 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:18:17 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:18:43 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 02:18:43 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:18:45 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:18:45 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 02:18:45 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:18:49 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:19:13 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 02:19:13 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:19:16 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:19:16 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 02:19:16 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:19:19 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:19:45 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 02:19:45 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:19:48 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:19:48 [INFO] (environment.py:22) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 02:19:48 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:19:53 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/cruises/
+2026-05-23 02:20:19 [INFO] (environment.py:56) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 02:20:19 [ERROR] (environment.py:61) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:20:21 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:20:21 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:23:52 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:23:52 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:23:52 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:23:57 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:24:28 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:24:28 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:24:30 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:24:30 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:29:48 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:29:48 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:29:48 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:29:53 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:30:16 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:30:16 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:30:20 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:30:20 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:33:56 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:33:56 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:33:56 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:34:01 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:34:41 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:34:41 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:34:43 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:34:43 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:39:01 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:39:01 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:39:01 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:39:08 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:39:44 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:39:44 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:39:47 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:39:47 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:55:24 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:55:24 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:55:24 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:55:32 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:56:10 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:56:10 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:56:12 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:56:12 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 02:57:22 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 02:57:22 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 02:57:22 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 02:57:27 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 02:58:12 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 02:58:12 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 02:58:15 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 02:58:15 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 03:12:36 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 03:12:36 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 03:12:36 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 03:12:43 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 03:13:32 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 03:13:32 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 03:13:36 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 03:13:36 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 03:17:52 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 03:17:52 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 03:17:52 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 03:17:59 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 03:18:57 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 03:18:57 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 03:19:02 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 03:19:02 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 03:27:18 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 03:27:18 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 03:27:18 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 03:27:23 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 03:28:21 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 03:28:21 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 03:28:24 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 03:28:24 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 10:41:15 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 10:41:15 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 10:41:15 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:41:23 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:42:24 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 10:42:24 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 10:42:27 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:42:27 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 10:47:50 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 10:47:50 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 10:47:50 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:47:57 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:48:43 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 10:48:43 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 10:48:46 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:48:46 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 10:54:47 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 10:54:47 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 10:54:47 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:54:54 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:55:25 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 10:55:25 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 10:55:28 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:55:28 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 10:56:18 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 10:56:18 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 10:56:18 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 10:56:26 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 10:57:15 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 10:57:15 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 10:57:17 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 10:57:17 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:02:52 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:02:52 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:02:52 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:02:58 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:03:46 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:03:46 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:03:49 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:03:49 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:09:03 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:09:03 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:09:03 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:09:10 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:10:32 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:10:32 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:10:35 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:10:35 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:17:30 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:17:30 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:17:30 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:17:36 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:18:48 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:18:48 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:18:50 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:18:50 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:28:43 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:28:43 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:28:43 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:28:49 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:30:08 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:30:08 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:30:11 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:30:12 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:43:09 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:43:09 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:43:09 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:43:15 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:44:54 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:44:54 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:44:59 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:45:00 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:55:50 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:55:50 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:55:50 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:55:58 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:56:36 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:56:36 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:56:39 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:56:39 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 11:58:16 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 11:58:16 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 11:58:16 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 11:58:21 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 11:59:36 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 11:59:36 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 11:59:38 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 11:59:38 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 12:05:47 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 12:05:47 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 12:05:47 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 12:05:52 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 12:07:24 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 12:07:24 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 12:07:27 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 12:07:27 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 12:09:46 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 12:09:46 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 12:09:46 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 12:09:53 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 12:11:35 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 12:11:35 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 12:11:37 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 12:11:37 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 12:41:44 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 12:41:44 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 12:41:44 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 12:41:51 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 12:44:23 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 12:44:26 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 12:44:26 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 12:46:18 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 12:46:18 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 12:46:18 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 12:46:24 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 12:48:38 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 12:48:38 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 12:48:41 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 12:48:41 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 12:51:58 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 12:51:58 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 12:51:58 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 12:52:05 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 12:54:20 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 12:54:20 [ERROR] (environment.py:61) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING TRACE ATTACHMENTS
+2026-05-23 12:54:24 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 12:54:24 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 13:00:22 [INFO] (environment.py:14) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 13:00:22 [INFO] (environment.py:22) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 13:00:22 [INFO] (environment.py:30) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 13:00:31 [INFO] (environment.py:51) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 13:03:20 [INFO] (environment.py:56) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 13:03:23 [INFO] (environment.py:76) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 13:03:27 [INFO] (environment.py:83) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 13:27:55 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 13:27:55 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 13:27:55 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 13:28:05 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 13:31:03 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should view the final booking confirmation summary or payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-23 13:31:04 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 13:31:04 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-23 13:31:07 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 13:31:07 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 13:39:07 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 13:39:07 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 13:39:07 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 13:39:13 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 13:42:33 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should view the final booking confirmation summary or payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-23 13:42:33 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 13:42:33 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-23 13:42:36 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 13:42:36 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 13:52:55 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 13:52:55 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 13:52:55 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 13:53:09 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 13:56:33 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 13:56:37 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 13:56:41 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 14:06:03 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 14:06:03 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 14:06:03 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 14:06:09 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 14:09:55 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 14:09:59 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 14:10:04 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 14:14:54 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 14:14:54 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 14:14:54 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 14:14:59 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 14:15:49 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user completes a default cabin and room selection strategy' - Capturing viewpoint snapshot.
+2026-05-23 14:15:50 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 14:15:50 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 14:15:52 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 14:15:52 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 14:45:23 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 14:45:23 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 14:45:23 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 14:45:30 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 14:49:11 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 14:49:12 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 14:49:12 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 14:49:15 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 14:49:15 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 14:52:44 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 14:52:44 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 14:52:44 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 14:52:52 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 14:57:49 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 14:57:49 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 14:57:49 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 14:57:54 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 14:57:54 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:15:26 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:15:26 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 15:15:26 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:15:38 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:19:42 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 15:19:42 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 15:19:42 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 15:19:46 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:19:46 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:22:05 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:22:05 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 15:22:05 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:22:13 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:26:32 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 15:26:32 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 15:26:32 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 15:26:38 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:26:39 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:34:08 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:34:08 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 15:34:08 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:34:18 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:37:41 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 15:37:41 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 15:37:41 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 15:37:46 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:37:46 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:39:07 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:39:07 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 15:39:07 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:39:19 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:42:58 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user populates traveler registration forms using details from data sheet "SearchCriteria"' - Capturing viewpoint snapshot.
+2026-05-23 15:43:09 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 15:43:09 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-23 15:43:13 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:43:14 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:46:43 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:46:43 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 15:46:43 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:46:50 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:47:21 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user has navigated to the Cruise module tab' - Capturing viewpoint snapshot.
+2026-05-23 15:47:22 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 15:47:22 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-23 15:47:26 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:47:26 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:47:44 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:47:44 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 15:47:44 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:47:49 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:50:55 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should view the final booking confirmation summary or payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-23 15:50:56 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-23 15:50:56 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-23 15:51:00 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:51:05 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 15:55:44 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 15:55:44 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 15:55:44 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 15:55:53 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 15:59:20 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 15:59:24 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 15:59:30 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 16:10:00 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 16:10:00 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 16:10:00 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 16:10:13 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:13:49 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 16:13:50 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 16:13:50 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 16:13:54 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:13:54 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 16:31:50 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 16:31:50 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 16:31:50 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 16:32:18 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:35:36 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 16:35:37 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 16:35:37 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 16:35:42 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:35:42 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 16:41:59 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 16:41:59 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 16:41:59 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 16:42:11 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:42:49 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user has navigated to the Cruise module tab' - Capturing viewpoint snapshot.
+2026-05-23 16:42:51 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 16:42:51 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 16:42:54 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:42:54 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 16:44:29 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 16:44:29 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 16:44:29 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 16:44:38 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:48:17 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.passed
+2026-05-23 16:48:22 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:48:22 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 16:53:23 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 16:53:23 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 16:53:23 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 16:53:33 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 16:57:07 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should ensure the final booking proceed button remains disabled' - Capturing viewpoint snapshot.
+2026-05-23 16:57:07 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 16:57:07 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 16:57:12 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 16:57:12 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:04:58 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:04:58 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 17:04:58 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:05:11 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:08:15 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.failed
+2026-05-23 17:08:15 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Invalid Short PAN Input Restriction Check' - CAPTURING FINAL TRACE
+2026-05-23 17:08:19 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:08:20 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:11:28 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:11:29 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 17:11:29 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:11:39 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:14:41 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.passed
+2026-05-23 17:14:46 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:14:46 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:34:44 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:34:44 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 17:34:44 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:34:57 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:38:17 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 17:38:17 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING FINAL TRACE
+2026-05-23 17:38:21 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:38:21 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:42:00 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:42:00 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 17:42:00 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:42:06 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:45:40 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user enters a lowercase PAN id "ffvpd6592h" and the system should accept the input and proceeds' - Capturing viewpoint snapshot.
+2026-05-23 17:45:40 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 17:45:40 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING FINAL TRACE
+2026-05-23 17:45:44 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:45:45 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:47:08 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:47:08 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 17:47:08 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:47:19 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:47:58 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user searches for cruises using criteria from data sheet "SearchCriteria"' - Capturing viewpoint snapshot.
+2026-05-23 17:47:59 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.failed
+2026-05-23 17:47:59 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 1 - Lowercase PAN Alphanumeric Input Handling' - CAPTURING FINAL TRACE
+2026-05-23 17:48:02 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:48:02 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 17:49:59 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 17:49:59 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 17:49:59 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 17:50:05 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 17:53:55 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.passed
+2026-05-23 17:53:58 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 17:53:58 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 18:11:45 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 18:11:45 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 18:11:45 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 18:11:50 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 18:12:20 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 18:12:20 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING FINAL TRACE
+2026-05-23 18:12:22 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 18:12:22 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 18:13:00 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 18:13:00 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 18:13:00 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 18:13:06 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 18:15:27 [ERROR] (environment.py:88) - ❌ Step Failed: 'the system should display a validation error containing "Invalid First Name"' - Capturing viewpoint snapshot.
+2026-05-23 18:15:27 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.failed
+2026-05-23 18:15:27 [ERROR] (environment.py:63) - TEST FAILED: 'Negative Test - Missing Mandatory Field Guardrail Check' - CAPTURING FINAL TRACE
+2026-05-23 18:15:30 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 18:15:30 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 19:40:11 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 19:40:11 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 19:40:11 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 19:40:19 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 19:43:14 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.passed
+2026-05-23 19:43:17 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:43:17 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 19:55:15 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 19:55:15 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 19:55:15 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 19:55:20 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 19:55:47 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should see that the cruise package listings grid is displayed and stable under the scaled layout' - Capturing viewpoint snapshot.
+2026-05-23 19:55:47 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 19:55:47 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING FINAL TRACE
+2026-05-23 19:55:50 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:55:50 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 19:58:23 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 19:58:23 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 19:58:23 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 19:58:30 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 19:59:02 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should see that the cruise package listings grid is displayed and stable under the scaled layout' - Capturing viewpoint snapshot.
+2026-05-23 19:59:02 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 19:59:02 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING FINAL TRACE
+2026-05-23 19:59:05 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 19:59:05 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 20:09:46 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 20:09:46 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 20:09:46 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 20:09:57 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 20:10:34 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user should see that the cruise package listings grid is displayed and stable under the scaled layout' - Capturing viewpoint snapshot.
+2026-05-23 20:10:35 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.failed
+2026-05-23 20:10:35 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 2 - UI Layout Resiliency Check on Window Rescale' - CAPTURING FINAL TRACE
+2026-05-23 20:10:39 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:10:40 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 20:16:10 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 20:16:10 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 20:16:10 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 20:16:17 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 20:17:04 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.passed
+2026-05-23 20:17:08 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 20:17:09 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 21:48:30 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 21:48:30 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 21:48:30 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 21:48:53 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 21:50:23 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.passed
+2026-05-23 21:50:26 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:50:27 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-23 21:52:21 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-23 21:52:21 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-23 21:52:21 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 21:52:26 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 21:56:09 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-23 21:56:13 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:56:13 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-23 21:56:13 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 21:56:23 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 21:59:13 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.passed
+2026-05-23 21:59:17 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 21:59:17 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-23 21:59:17 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 21:59:24 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 22:01:50 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.passed
+2026-05-23 22:01:53 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 22:01:53 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-23 22:01:53 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 22:01:59 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 22:05:13 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.passed
+2026-05-23 22:05:16 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 22:05:16 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-23 22:05:16 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 22:05:21 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 22:05:54 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.passed
+2026-05-23 22:05:56 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 22:05:56 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-23 22:05:56 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 22:06:02 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 22:08:34 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user submits a valid PAN card to advance past the review context onto the payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-23 22:08:34 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-23 22:08:34 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING FINAL TRACE
+2026-05-23 22:08:37 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 22:08:37 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-23 22:08:37 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-23 22:08:46 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-23 22:09:14 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user notes the title of the top cruise result under default price sorting' - Capturing viewpoint snapshot.
+2026-05-23 22:09:15 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-23 22:09:15 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-23 22:09:18 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-23 22:09:18 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 00:31:19 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 00:31:19 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-24 00:31:19 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 00:31:35 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:34:16 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user submits a valid PAN card to advance past the review context onto the payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-24 00:34:16 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-24 00:34:16 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING FINAL TRACE
+2026-05-24 00:34:19 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:34:19 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 00:37:03 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 00:37:03 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-24 00:37:03 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 00:37:08 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:39:51 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user submits a valid PAN card to advance past the review context onto the payment gateway screen' - Capturing viewpoint snapshot.
+2026-05-24 00:39:52 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.failed
+2026-05-24 00:39:52 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync' - CAPTURING FINAL TRACE
+2026-05-24 00:39:55 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:39:55 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 00:45:38 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 00:45:38 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-24 00:45:38 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 00:45:44 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 00:49:05 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.passed
+2026-05-24 00:49:09 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 00:49:09 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:41:20 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:41:20 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:41:20 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:41:27 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:41:56 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:41:56 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:41:56 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:41:59 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:41:59 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:43:42 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:43:42 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:43:42 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:43:47 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:44:34 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:44:34 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:44:34 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:44:37 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:44:37 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:49:31 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:49:31 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:49:31 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:49:36 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:50:20 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:50:20 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:50:20 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:50:23 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:50:24 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:53:06 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:53:06 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:53:06 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:53:11 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:53:40 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:53:40 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:53:40 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:53:43 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:53:43 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:55:55 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:55:55 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:55:55 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:56:00 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:56:32 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:56:32 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:56:32 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:56:35 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:56:35 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:57:13 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:57:13 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:57:13 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:57:18 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:58:13 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:58:13 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:58:13 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 01:58:16 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 01:58:16 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 01:59:08 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 01:59:08 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 01:59:08 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 01:59:13 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 01:59:58 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user changes the active sorting dropdown option selection to "Departure Date"' - Capturing viewpoint snapshot.
+2026-05-24 01:59:58 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.failed
+2026-05-24 01:59:58 [ERROR] (environment.py:63) - TEST FAILED: 'Positive Test 4 - Sort by Departure Date and Assert List Sorting Change' - CAPTURING FINAL TRACE
+2026-05-24 02:00:01 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:00:01 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 02:00:56 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 02:00:56 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 02:00:56 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:01:01 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:02:00 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.passed
+2026-05-24 02:02:03 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:02:03 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 02:15:07 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 02:15:07 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-24 02:15:07 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:15:12 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:18:45 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-24 02:18:49 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:18:49 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 02:39:32 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 02:39:32 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-24 02:39:32 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:39:45 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:41:48 [ERROR] (environment.py:88) - ❌ Step Failed: 'the user has navigated to the Cruise module tab' - Capturing viewpoint snapshot.
+2026-05-24 02:41:50 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.failed
+2026-05-24 02:41:50 [ERROR] (environment.py:63) - TEST FAILED: 'End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data' - CAPTURING FINAL TRACE
+2026-05-24 02:41:54 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:41:55 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-24 02:41:55 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:43:09 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========
+2026-05-24 02:43:55 [INFO] (environment.py:16) - ========== BDD TEST SUITE INITIALIZATION ==========
+2026-05-24 02:43:55 [INFO] (environment.py:24) - --> STARTING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data
+2026-05-24 02:43:55 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:44:00 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:47:18 [INFO] (environment.py:58) - <-- ENDING SCENARIO: End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data | STATUS: Status.passed
+2026-05-24 02:47:21 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:47:22 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check
+2026-05-24 02:47:22 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:47:33 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:50:18 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Invalid Short PAN Input Restriction Check | STATUS: Status.passed
+2026-05-24 02:50:21 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:50:21 [INFO] (environment.py:24) - --> STARTING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check
+2026-05-24 02:50:21 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:50:25 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:52:24 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Negative Test - Missing Mandatory Field Guardrail Check | STATUS: Status.passed
+2026-05-24 02:52:27 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:52:28 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling
+2026-05-24 02:52:28 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:52:32 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:55:43 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 1 - Lowercase PAN Alphanumeric Input Handling | STATUS: Status.passed
+2026-05-24 02:55:46 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:55:46 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale
+2026-05-24 02:55:46 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:55:51 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:56:21 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 2 - UI Layout Resiliency Check on Window Rescale | STATUS: Status.passed
+2026-05-24 02:56:23 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:56:23 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync
+2026-05-24 02:56:23 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:56:28 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 02:59:19 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync | STATUS: Status.passed
+2026-05-24 02:59:22 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 02:59:22 [INFO] (environment.py:24) - --> STARTING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change
+2026-05-24 02:59:22 [INFO] (environment.py:32) - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-24 02:59:36 [INFO] (environment.py:53) - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-24 03:00:24 [INFO] (environment.py:58) - <-- ENDING SCENARIO: Positive Test 4 - Sort by Departure Date and Assert List Sorting Change | STATUS: Status.passed
+2026-05-24 03:00:27 [INFO] (environment.py:68) - BROWSER CLOSED SUCCESSFULLY
+2026-05-24 03:00:27 [INFO] (environment.py:120) - ========== BDD TEST SUITE COMPLETION - COMPILING REPORT ==========

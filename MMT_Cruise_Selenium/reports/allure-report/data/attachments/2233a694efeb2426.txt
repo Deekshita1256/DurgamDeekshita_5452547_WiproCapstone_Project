@@ -1,0 +1,27 @@
+2026-05-22 15:34:25 - [INFO] - ========== STARTING TEST ==========
+2026-05-22 15:34:25 - [INFO] - LAUNCHING BROWSER: CHROME (Headless=False)
+2026-05-22 15:34:31 - [INFO] - OPENING WEBSITE: https://www.makemytrip.com/
+2026-05-22 15:34:39 - [INFO] - CURRENT URL: https://www.makemytrip.com/
+2026-05-22 15:35:27 - [ERROR] - TEST FAILED - CAPTURING SCREENSHOT
+2026-05-22 15:35:27 - [ERROR] - SCREENSHOT FAILED: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7ee8f7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7ee8f7e50+14900]
+	uc_driver!(No symbol) [0x7ff7ee65d396]
+	uc_driver!(No symbol) [0x7ff7ee6a8e76]
+	uc_driver!(No symbol) [0x7ff7ee6dff62]
+	uc_driver!(No symbol) [0x7ff7ee6d9d7f]
+	uc_driver!(No symbol) [0x7ff7ee6d9543]
+	uc_driver!(No symbol) [0x7ff7ee626325]
+	uc_driver!GetHandleVerifier [0x7ff7eec0cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7eec07375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7eec2bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7ee916045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7ee91ecec+3b79c]
+	uc_driver!(No symbol) [0x7ff7ee6250bc]
+	uc_driver!GetHandleVerifier [0x7ff7eed70b18+48d5c8]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5298e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa53e4427c+2c]
+
+2026-05-22 15:35:27 - [INFO] - ========== CLOSING TEST ==========
+2026-05-22 15:35:30 - [INFO] - BROWSER CLOSED SUCCESSFULLY

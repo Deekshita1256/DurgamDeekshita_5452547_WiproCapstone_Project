@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","179009","Negative Test - Invalid Short PAN Input Restriction Check","","2026-05-24","passed","2026-05-24","","","",""
+"","178616","Positive Test 3 - Dynamic Sidebar Total Fare Handoff Sync","","2026-05-24","passed","2026-05-24","","","",""
+"","126661","Negative Test - Missing Mandatory Field Guardrail Check","","2026-05-24","passed","2026-05-24","","","",""
+"","198617","Positive Test 1 - Lowercase PAN Alphanumeric Input Handling","","2026-05-24","passed","2026-05-24","","","",""
+"","206112","End-to-End Cruise Selection and Checkout Reservation Flow from Excel Data","","2026-05-24","passed","2026-05-24","","","",""
+"","37137","Positive Test 2 - UI Layout Resiliency Check on Window Rescale","","2026-05-24","passed","2026-05-24","","","",""
+"","65287","Positive Test 4 - Sort by Departure Date and Assert List Sorting Change","","2026-05-24","passed","2026-05-24","","","",""

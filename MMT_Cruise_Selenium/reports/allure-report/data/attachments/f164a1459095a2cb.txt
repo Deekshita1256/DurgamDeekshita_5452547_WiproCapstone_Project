@@ -1,0 +1,4 @@
+Destination: Asia and Asia Pacific
+Month: July
+Guest 1 Age Input: 28
+Guest 2 Age Input: 32

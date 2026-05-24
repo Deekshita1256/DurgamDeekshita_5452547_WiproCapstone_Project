@@ -1,0 +1,25 @@
+[INFO] Successfully moved selenium focus window. New Tab URL: https://mmt.odysol.com/swift/cruise?siid=258080&destinationtype=destination&destinations=19&startdate=07%2F01%2F2026&enddate=07%2F31%2F2026&referrer=3a9d569ab6bfe995d54082facdc57c3b&referrer2=37fc0b22-ff0a-434c-a015-4f1fcad40bd4
+[WARNING] Could not parse individual cruise card title structures text details. Error: Message: 
+Stacktrace:
+	uc_driver!GetHandleVerifier [0x7ff7ee8f7de5+14895]
+	uc_driver!GetHandleVerifier [0x7ff7ee8f7e50+14900]
+	uc_driver!(No symbol) [0x7ff7ee65d5ad]
+	uc_driver!(No symbol) [0x7ff7ee6b7822]
+	uc_driver!(No symbol) [0x7ff7ee6b7b2c]
+	uc_driver!(No symbol) [0x7ff7ee707d17]
+	uc_driver!(No symbol) [0x7ff7ee70486f]
+	uc_driver!(No symbol) [0x7ff7ee6a9df8]
+	uc_driver!(No symbol) [0x7ff7ee6aace3]
+	uc_driver!GetHandleVerifier [0x7ff7eec0cc49+3296f9]
+	uc_driver!GetHandleVerifier [0x7ff7eec07375+323e25]
+	uc_driver!GetHandleVerifier [0x7ff7eec2bc82+348732]
+	uc_driver!GetHandleVerifier [0x7ff7ee916045+32af5]
+	uc_driver!GetHandleVerifier [0x7ff7ee91ecec+3b79c]
+	uc_driver!GetHandleVerifier [0x7ff7ee901bc4+1e674]
+	uc_driver!GetHandleVerifier [0x7ff7ee901d54+1e804]
+	uc_driver!GetHandleVerifier [0x7ff7ee8e60e7+2b97]
+	KERNEL32!BaseThreadInitThunk [0x7ffa5298e957+17]
+	ntdll!RtlUserThreadStart [0x7ffa53e4427c+2c]
+
+[INFO] Fallback print - Page Title is currently:  MakeMyTrip: Cruise Planner
+[SUCCESS] Responsive UI Rescale layout assertion verified early on the listing viewport grid.
