@@ -1,5 +1,4 @@
 
-```markdown
 # Make My Trip Selenium Capstone Project
 
 This project automates Make My Trip Cruise booking scenarios with Selenium, Behave BDD, and Allure reporting.
